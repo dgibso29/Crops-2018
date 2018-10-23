@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 2662579699
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b53c8918e8c02073d1cb27ea52e644b2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b9c5540b304ddae05ee6edb305f8e201
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 11be5d910213e334a8e67e43a9ae834b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c5350ce17547cd7418e53e8275b34861, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1c30b7921bc14cf448b26462f8002a14, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3c6c322325de68346a2db77798dbb75d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 907c2cd31c209a94b89efe22880580f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 32804456cd20b1a4a96fa542baa6e603, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 98bc1a57598a91542a36459c0d567cb4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 43ad2197fce78dc449a3d4bde9405724, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a0b9fc5cdea29af4f8842a5989c69ae6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2e1c17ecead645b4e98f530827ea1afd, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Tilesets/TilesetTemplate.prefab
+- Assets/Prefabs/CropSet/MasterCropSet.prefab
+- Assets/Prefabs/Tilesets/MidwestTileset.prefab
+Dependencies: []

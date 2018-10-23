@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6c322325de68346a2db77798dbb75d, type: 3}
+  m_Name: Midwest_Terrain_Wettest
+  m_EditorClassIdentifier: 
+  _nameEnglish: 
+  _nameLocalizationKey: 
+  _descriptionEnglish: 
+  _descriptionLocalizationKey: 
+  spriteVariants:
+  - {fileID: 21300000, guid: 79b79798c1433aa418234396d177c20e, type: 3}
+  - {fileID: 21300000, guid: f932b8d0e01f3184f90e407d986f56c4, type: 3}
+  - {fileID: 21300000, guid: 6dabb03c99cb83f47a66ecd3850c960c, type: 3}
+  - {fileID: 21300000, guid: b635063fb43626d43ad8324c4860ac00, type: 3}
+  spriteVariantWeights: 14000000140000001e0000001e000000

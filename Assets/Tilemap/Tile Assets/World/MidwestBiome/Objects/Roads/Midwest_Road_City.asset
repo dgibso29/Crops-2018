@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5350ce17547cd7418e53e8275b34861, type: 3}
+  m_Name: Midwest_Road_City
+  m_EditorClassIdentifier: 
+  _nameEnglish: 
+  _nameLocalizationKey: 
+  _descriptionEnglish: 
+  _descriptionLocalizationKey: 
+  singleSprites:
+  - {fileID: 21300000, guid: 4848894f1b221d641b2b50b1fb729049, type: 3}
+  deadEndSprites:
+  - {fileID: 21300000, guid: 7cc7043679d026040880089cff953d50, type: 3}
+  straightSprites:
+  - {fileID: 21300000, guid: 6c410cc1c3b03c843a44cf5e90b9fa25, type: 3}
+  cornerSprites:
+  - {fileID: 21300000, guid: 3daed3f41e69f484aad4584bc603519f, type: 3}
+  tJunctionSprites:
+  - {fileID: 21300000, guid: 1cd887906a274264b9e0c23f2f37109d, type: 3}
+  fourWaySprites:
+  - {fileID: 21300000, guid: 84a7ae2b58407004daebe656f53ca921, type: 3}
+  gateSprites: []
+  straightCrosswalkSprites:
+  - {fileID: 21300000, guid: 5806ddd099ba08441aed70c849cd1f64, type: 3}

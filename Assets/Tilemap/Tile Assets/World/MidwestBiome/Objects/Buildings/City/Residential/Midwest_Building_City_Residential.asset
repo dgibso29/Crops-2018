@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32804456cd20b1a4a96fa542baa6e603, type: 3}
+  m_Name: Midwest_Building_City_Residential
+  m_EditorClassIdentifier: 
+  _nameEnglish: 
+  _nameLocalizationKey: 
+  _descriptionEnglish: 
+  _descriptionLocalizationKey: 
+  tileTextures:
+  - Key: 1x1
+    Value:
+    - {fileID: 2800000, guid: 29e6a178461066e468e7e765c8eda4f8, type: 3}
+  - Key: 3x3
+    Value:
+    - {fileID: 2800000, guid: d5e5fe32a58f075408f31e32e7fd7d8a, type: 3}
+  pixelsPerUnit: 20

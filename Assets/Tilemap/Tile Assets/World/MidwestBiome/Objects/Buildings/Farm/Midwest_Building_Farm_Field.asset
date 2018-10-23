@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1c17ecead645b4e98f530827ea1afd, type: 3}
+  m_Name: Midwest_Building_Farm_Field
+  m_EditorClassIdentifier: 
+  _nameEnglish: 
+  _nameLocalizationKey: 
+  _descriptionEnglish: 
+  _descriptionLocalizationKey: 
+  _buildCost: 0
+  _destructionCost: 0
+  _allowFence: 0
+  BuildableObjectType: 0
+  tileTextures:
+  - Key: 8x8
+    Value:
+    - {fileID: 2800000, guid: 5041d7fa7196ded4e834705b22706163, type: 3}
+  pixelsPerUnit: 20
+  tempCrop: {fileID: 11400000, guid: 4afacb8ae15dccd42a2a8ae8a4397561, type: 2}
+  fieldSprites:
+  - Type: 0
+    Fallow: {fileID: 21300000, guid: 5041d7fa7196ded4e834705b22706163, type: 3}
+    Plowed: {fileID: 21300000, guid: 0073e8b9278f55345a33f283d9f07351, type: 3}
+  - Type: 1
+    Fallow: {fileID: 0}
+    Plowed: {fileID: 0}

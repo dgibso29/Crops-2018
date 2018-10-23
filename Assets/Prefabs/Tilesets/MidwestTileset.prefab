@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1564559497319452}
+  m_IsPrefabParent: 1
+--- !u!1 &1564559497319452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4170274808436168}
+  - component: {fileID: 114307336505145050}
+  m_Layer: 0
+  m_Name: MidwestTileset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4170274808436168
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564559497319452}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 75.766106, y: 73.72262, z: 9.875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114307336505145050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1564559497319452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11be5d910213e334a8e67e43a9ae834b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TilesetName: Midwest
+  terrainObjects:
+  - key: Terrain_Driest
+    scriptableObject: {fileID: 11400000, guid: f5e28a7807742004db5befd7e7962a56, type: 2}
+  - key: Terrain_Dry
+    scriptableObject: {fileID: 11400000, guid: 6ce1808d0b4fad34598fb2df05d30d9b, type: 2}
+  - key: Terrain_Normal
+    scriptableObject: {fileID: 11400000, guid: 56bc8311e38fdeb40b2b0462e3adc887, type: 2}
+  - key: Terrain_Wet
+    scriptableObject: {fileID: 11400000, guid: 93ddee9c9e59c8249be6c118c7cce478, type: 2}
+  - key: Terrain_Wettest
+    scriptableObject: {fileID: 11400000, guid: ebe12d186b9411b40afd846dc2129776, type: 2}
+  waterObjects:
+  - key: Water
+    scriptableObject: {fileID: 11400000, guid: 36825df3ae355674eb45e576e2f8da3c, type: 2}
+  roadObjects:
+  - key: Road_Main
+    scriptableObject: {fileID: 11400000, guid: 1334eff686127e34c8da5b1f2d554af7, type: 2}
+  - key: Road_City
+    scriptableObject: {fileID: 11400000, guid: 735a0897bc69f1749bacb346bedc86c3, type: 2}
+  fenceObjects:
+  - key: Fence_Main
+    scriptableObject: {fileID: 11400000, guid: e6f3fb41d55835d4581bb5282246b293, type: 2}
+  sceneryObjects: []
+  farmBuildingObjects:
+  - key: Field
+    scriptableObject: {fileID: 11400000, guid: 2338be8e4d1ae714d9db6fffe4a06ec8, type: 2}
+  - key: Shed
+    scriptableObject: {fileID: 11400000, guid: 9ab3d8a68ab84224c87e5a5a96fd3906, type: 2}
+  cityBuildingObjects:
+  - key: Agricultural
+    scriptableObject: {fileID: 11400000, guid: c478dd1d4073b6447a2d948df32a7fc9, type: 2}
+  - key: Commercial
+    scriptableObject: {fileID: 11400000, guid: 5f46a54766459674a805b2bf60bd483d, type: 2}
+  - key: Industrial
+    scriptableObject: {fileID: 11400000, guid: b3e3658a8ff72014b875f81bf905703a, type: 2}
+  - key: Mixed
+    scriptableObject: {fileID: 11400000, guid: 218a003fb0a7ce746b126c550068692f, type: 2}
+  - key: Office
+    scriptableObject: {fileID: 11400000, guid: fb164f994d4e32a4ea6d0a963b0ae068, type: 2}
+  - key: Park
+    scriptableObject: {fileID: 11400000, guid: 40cdab4724ed00241b2561afdb9d341b, type: 2}
+  - key: Residential
+    scriptableObject: {fileID: 11400000, guid: 5ce38577d261c7049bb9e9836eed23f2, type: 2}
+  - key: Special_Fountain
+    scriptableObject: {fileID: 11400000, guid: 7b90b04275a2edb46b1986089e36a0bd, type: 2}
+  weatherTypes:
+  - key: Weather_HeavyFreezingPrecipitation
+    scriptableObject: {fileID: 11400000, guid: 9e715ac1ffd219c40803648fe89048df, type: 2}
+  - key: Weather_HeavyPrecipitation
+    scriptableObject: {fileID: 11400000, guid: 70ed2652b8135e44fad8485e1784a4f5, type: 2}
+  - key: Weather_LightFreezingPrecipitation
+    scriptableObject: {fileID: 11400000, guid: 5e73a711aeba22144815f61e630cdb0a, type: 2}
+  - key: Weather_LightPrecipitation
+    scriptableObject: {fileID: 11400000, guid: e648823fb9b59f94f9ec81d93a63dc01, type: 2}
+  - key: Weather_MajorStorm
+    scriptableObject: {fileID: 11400000, guid: 9fbe368b7cb6ba045aaf2749b067ca40, type: 2}
+  - key: Weather_MajorWinterStorm
+    scriptableObject: {fileID: 11400000, guid: 3ed6ab3d75e07f042bbcb46e99b0e96a, type: 2}
+  - key: Weather_MinorStorm
+    scriptableObject: {fileID: 11400000, guid: 530bc43d355a6884e90ffcb29feb04a6, type: 2}
+  - key: Weather_MinorWinterStorm
+    scriptableObject: {fileID: 11400000, guid: 4a97d363aa0765742a42e446d7e5accf, type: 2}
+  - key: Weather_Overcast
+    scriptableObject: {fileID: 11400000, guid: 25d51b46328c9ba4582c26e1a3e4c226, type: 2}
+  - key: Weather_PartlyCloudy
+    scriptableObject: {fileID: 11400000, guid: 812723da95ebd3542b973cf66a686d68, type: 2}
+  - key: Weather_Sunny
+    scriptableObject: {fileID: 11400000, guid: 97bc177eb30c35a4b8c915cc22db5cbd, type: 2}
+  climateDataList:
+  - Name: Climate_Normal
+    AveragePrecipitationInMM:
+    - 23
+    - 32
+    - 57
+    - 98
+    - 120
+    - 125
+    - 113
+    - 104
+    - 77
+    - 67
+    - 55
+    - 35
+    AverageLowTempInCelcius:
+    - -9.8
+    - -7.3
+    - -1.3
+    - 5.1
+    - 11.2
+    - 16.7
+    - 19.3
+    - 18.2
+    - 12.9
+    - 6.1
+    - -0.8
+    - -7.8
+    AverageHighTempInCelcius:
+    - -0.6
+    - 2.3
+    - 9.4
+    - 16.8
+    - 22.4
+    - 27.6
+    - 29.8
+    - 28.8
+    - 24.5
+    - 17.3
+    - 8.8
+    - 1.1
+    Seasons:
+    - Name: Spring
+      StartDay: 20
+      StartMonth: 3
+    - Name: Summer
+      StartDay: 21
+      StartMonth: 6
+    - Name: Fall
+      StartDay: 23
+      StartMonth: 9
+    - Name: Winter
+      StartDay: 21
+      StartMonth: 12

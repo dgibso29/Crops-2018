@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ad2197fce78dc449a3d4bde9405724, type: 3}
+  m_Name: Midwest_Fence_Main
+  m_EditorClassIdentifier: 
+  _nameEnglish: 
+  _nameLocalizationKey: 
+  _descriptionEnglish: 
+  _descriptionLocalizationKey: 
+  _buildCost: 0
+  _destructionCost: 0
+  NoAssignment: {fileID: 21300000, guid: 9d3e71baa90056d40bac3ee5421b983f, type: 3}
+  fullSprites:
+  - {fileID: 21300000, guid: 94f7fd984c22a504eba43898996f6ae0, type: 3}
+  singleInnerCornerSprites:
+  - {fileID: 21300000, guid: 88c06bcb780cb79438c7e3b80c74315a, type: 3}
+  doubleInnerCornerSprites:
+  - {fileID: 21300000, guid: 0fc4312580d96b841b65c8161b8d69ed, type: 3}
+  doubleInnerCornerDiagonalSprites:
+  - {fileID: 21300000, guid: 8d696b169711b2241ad675082110f56e, type: 3}
+  tripleInnerCornerSprites:
+  - {fileID: 21300000, guid: f9fd174890d5e6b41b62015b8e5f9e94, type: 3}
+  quadrupleInnerCornerSprites:
+  - {fileID: 21300000, guid: 7d5045e47bd63484380f3db3458d4608, type: 3}
+  outerCornerSprites:
+  - {fileID: 21300000, guid: b4278a89e729cce4187089bd45e9b0fa, type: 3}
+  outerCornerWithInnerSprites:
+  - {fileID: 21300000, guid: 57453b18db9cfee4e9d1ad4c28688ebf, type: 3}
+  edgeSprites:
+  - {fileID: 21300000, guid: b4984778a4d8bca40b785213a010e11e, type: 3}
+  edgeSingleInnerLeftSprites:
+  - {fileID: 21300000, guid: 58d82f11f4f37c547a5873c07d0b0ec2, type: 3}
+  edgeSingleInnerRightSprites:
+  - {fileID: 21300000, guid: cc2664903f603b940a5535ed718bb068, type: 3}
+  edgeDoubleInnerSprites:
+  - {fileID: 21300000, guid: cc2664903f603b940a5535ed718bb068, type: 3}
+  isthmusSprites:
+  - {fileID: 21300000, guid: b1dbfc084e6a35542a47f71e9893615e, type: 3}
+  peninsulaSprites:
+  - {fileID: 21300000, guid: 8320e48bddfaf8744bfcec6c47a8caaf, type: 3}
+  pondSprites:
+  - {fileID: 21300000, guid: cfe11449e65f96d4c8dfb007b32a729a, type: 3}

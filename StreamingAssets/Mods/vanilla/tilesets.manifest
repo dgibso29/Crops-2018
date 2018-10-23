@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 3699982276
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e372b8cf92a8c6bcff591e35167a5dbb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e3036ed2043523339f8953030a230cf2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71dc29e436c8e2541b0f1ce76266413d, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Tilesets/DefaultTileset.prefab
+- Assets/Prefabs/Tilesets/TemperateTileset.prefab
+Dependencies: []
